@@ -5,7 +5,7 @@
 * [自定义组件](./component) -- ok
 * [嵌套组件](./nexted-components) -- ok
 * [异步请求](./async-actions) -- ok
-* UI框架
+* [UI框架 vue-strap](./vue-strap) -- ok
 * 状态管理(vuex)
 * 路由
 * 单文件组件（html + js + css）
