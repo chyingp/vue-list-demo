@@ -1,7 +1,7 @@
 # vue-list-demo
 just a demo
 
-* directive + event + computed props
+* directive + event + computed props -- ok
 * 循环 + 判断
 * 组件 + 传参
 * 嵌套组件
