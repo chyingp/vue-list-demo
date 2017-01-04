@@ -46,8 +46,9 @@
 		template: '#app-template',
 		data: function(){
 			return {
+				localKey: 'myAppItems',
 				text: '',
-				items: [{text: '默认', createdAt: new Date()}]
+				items: []
 			};
 		},
 		methods: {
@@ -55,16 +56,31 @@
 				if(this.text){
 					this.items.push({
 						text: this.text,
-						createdAt: new Date()
+						createdAt: new Date() - 0
 					});
 					this.text = '';
 				}
 			},
-			renderDate: function(date){
+			renderDate: function(createdAt){
+				var date = new Date(createdAt);
 				var ret = date.getFullYear() + '年' + (date.getMonth() + 1) + '月' + date.getDate() + '日';
 				ret += ' ' + date.getHours() + '时' + date.getMinutes() + '分' + date.getSeconds() + '秒';
 				return ret;
 			}
+		},
+		watch: {
+			items: function(items){
+				localStorage.setItem(this.localKey, JSON.stringify(items));
+			}
+		},
+		mounted: function(){
+			var items = localStorage.getItem(this.localKey);
+			if(!items){
+				items = [];
+			}
+			this.items = JSON.parse(items);
+			
+			console.log('my app mounted');
 		}
 	});
 	
