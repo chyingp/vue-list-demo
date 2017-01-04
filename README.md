@@ -4,7 +4,7 @@ just a demo
 * [入门例子：directive + event + computed props](./getting-started) -- ok
 * [循环 + 判断](./for-if) -- ok
 * [自定义组件](./component) -- ok
-* 嵌套组件
+* [嵌套组件](./nexted-components) -- ok
 * 异步请求
 * 状态管理(vuex)
 * UI框架
