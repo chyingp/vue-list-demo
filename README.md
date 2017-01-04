@@ -1,8 +1,8 @@
 # vue-list-demo
 just a demo
 
-* directive + event + computed props -- ok
-* 循环 + 判断
+* [入门例子：directive + event + computed props](./getting-started） -- ok
+* [循环 + 判断](./for-if) -- ok
 * 组件 + 传参
 * 嵌套组件
 * 异步请求
