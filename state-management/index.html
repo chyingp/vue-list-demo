@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>UI框架：vue-strap</title>
+	<title>状态管理</title>
 	<link rel="stylesheet" type="text/css" href="../node_modules/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
@@ -44,6 +44,7 @@
 <script type="text/javascript" src="../node_modules/vuex/dist/vuex.js"></script>
 <script type="text/javascript" src="../node_modules/vue-strap/dist/vue-strap.js"></script>
 <script type="text/javascript">
+
 	var store = new Vuex.Store({
 		state: {
 			items: []
@@ -83,6 +84,7 @@
 				return this.$store.state.items;
 			}
 		},
+		computed: Vuex.mapState(['items']),
 		methods: {
 			handleAddClick: function(){
 				if(this.text){
