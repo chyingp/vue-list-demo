@@ -6,7 +6,7 @@
 * [嵌套组件](./nexted-components) -- ok
 * [异步请求](./async-actions) -- ok
 * [UI框架 vue-strap](./vue-strap) -- ok
-* 状态管理(vuex)
+* [状态管理 vuex](./state-management) -- ok
 * 路由
 * 单文件组件（html + js + css）
 * 结合webpack
