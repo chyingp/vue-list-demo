@@ -7,8 +7,8 @@
 * [异步请求](./async-actions) -- ok
 * [UI框架 vue-strap](./vue-strap) -- ok
 * [状态管理 vuex](./state-management) -- ok
-* 路由
 * 单文件组件（html + js + css）
+* [路由 vue-router]
 * 结合webpack
 
 ## 相关链接

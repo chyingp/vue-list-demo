@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>路由</title>
+</head>
+<body>
+
+<script type="text/javascript" src="../node_modules/vue/dist/vue.js"></script>
+<script type="text/javascript" src="../node_modules/vue-router/dist/vue-router.js"></script>
+<script type="text/javascript">
+	var Detail = Vue.component('my-detail');
+	var List = Vue.component('my-list');
+	
+	var routes = [
+		{ path: '/list', component: List },
+		{ path: '/detail', component: Detail }
+	];
+
+	var router = new VueRouter({
+		routes: routes
+	});
+	
+</script>
+</body>
+</html>
