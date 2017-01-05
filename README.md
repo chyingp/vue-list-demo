@@ -13,4 +13,8 @@
 
 ## 相关链接
 
-http://yuche.github.io/vue-strap/
+vue-loader：https://vue-loader.vuejs.org/en/?q=
+vue-router：https://router.vuejs.org
+Vuex：http://vuex.vuejs.org/en/intro.html
+JSX in Vue：https://vuejs.org/v2/guide/render-function.html#JSX
+vue-strap：http://yuche.github.io/vue-strap/
